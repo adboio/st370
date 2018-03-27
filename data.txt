@@ -1,0 +1,96 @@
+ST370 PROJECT DATA
+
+JAVA (RUNTIME IN NANOSECONDS)
+INPUT SIZE: 10
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         1543422
+QuickSort         913885
+SelectionSort     6200
+BubbleSort        4738
+
+INPUT SIZE: 100
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         1836882
+QuickSort         863929
+SelectionSort     87507
+BubbleSort        148425
+
+INPUT SIZE: 1000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         2402150
+QuickSort         1140689
+SelectionSort     2719119
+BubbleSort        3994092
+
+INPUT SIZE: 100000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         24930823
+QuickSort         11607122
+SelectionSort     4649049966
+BubbleSort        17152388081
+
+
+C (RUNTIME IN SECONDS)
+INPUT SIZE: 10
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         0.000002
+QuickSort         0.000001
+SelectionSort     0.000001
+BubbleSort        0.000002
+
+INPUT SIZE: 100
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         0.000016
+QuickSort         0.000011
+SelectionSort     0.000021
+BubbleSort        0.000038
+
+INPUT SIZE: 1000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         0.000166
+QuickSort         0.000107
+SelectionSort     0.001299
+BubbleSort        0.002906
+
+INPUT SIZE: 100000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         0.017955
+QuickSort         0.015168
+SelectionSort     9.303701
+BubbleSort        31.047064
+
+
+PYTHON (RUNTIME IN SECONDS)
+INPUT SIZE: 10
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort:        6.19888305664e-05
+QuickSort:        2.40802764893e-05
+SelectionSort:    2.09808349609e-05
+BubbleSort:       2.78949737549e-05
+
+INPUT SIZE: 100
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort:        0.00109505653381
+QuickSort:        0.000466108322144
+SelectionSort:    0.00131392478943
+BubbleSort:       0.00234913825989
+
+INPUT SIZE: 1000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort:        0.0102310180664
+QuickSort:        0.00424194335938
+SelectionSort:    0.0881428718567
+BubbleSort:       0.190106153488
+
+INPUT SIZE: 100000
