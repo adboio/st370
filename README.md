@@ -2,9 +2,14 @@
 ## Adam Bowker & Sai Macha
 
 ## Usage:
-## C: ./sorting <size>
-### to compile: gcc -Wall -std=c99 sorting.c -o sorting
-## Java: java ST370 <size>
-### to compile: javac ST370.java
-## Python: python sorting.py <size>
+## C
+### compile:  gcc -Wall -std=c99 sorting.c -o sorting
+### run:  ./sorting <size>
+
+## Java
+### compile:  javac ST370.java
+### run:  java ST370 <size>
+
+## Python
 ### no compile necessary
+### run:  python sorting.py <size>
