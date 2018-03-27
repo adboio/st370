@@ -1,7 +1,7 @@
-# ST370 Project 1
-## Adam Bowker & Sai Macha
+# ST370 Project 1 - Adam Bowker & Sai Macha
 
-## Usage:
+# Usage:
+
 ## C
 ### compile:  gcc -Wall -std=c99 sorting.c -o sorting
 ### run:  ./sorting <size>
