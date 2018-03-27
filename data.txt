@@ -25,6 +25,14 @@ QuickSort         1140689
 SelectionSort     2719119
 BubbleSort        3994092
 
+INPUT SIZE: 10000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         3588684
+QuickSort         2564156
+SelectionSort     55551656
+BubbleSort        128842290
+
 INPUT SIZE: 100000
 ~~~~~~~~~~RESULTS~~~~~~~~~~
 <Algorithm>       <Runtime>
@@ -58,6 +66,14 @@ MergeSort         0.000166
 QuickSort         0.000107
 SelectionSort     0.001299
 BubbleSort        0.002906
+
+INPUT SIZE: 10000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort         0.001467
+QuickSort         0.001156
+SelectionSort     0.090376
+BubbleSort        0.283806
 
 INPUT SIZE: 100000
 ~~~~~~~~~~RESULTS~~~~~~~~~~
@@ -93,4 +109,18 @@ QuickSort:        0.00424194335938
 SelectionSort:    0.0881428718567
 BubbleSort:       0.190106153488
 
+INPUT SIZE: 10000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort:        0.128978013992
+QuickSort:        0.0545289516449
+SelectionSort:    9.39410209656
+BubbleSort:       19.8599689007
+
 INPUT SIZE: 100000
+~~~~~~~~~~RESULTS~~~~~~~~~~
+<Algorithm>       <Runtime>
+MergeSort:        1.61198091507
+QuickSort:        0.761559009552
+SelectionSort:    1217.44926596
+BubbleSort:       3913.16982579

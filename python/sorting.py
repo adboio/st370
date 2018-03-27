@@ -103,24 +103,28 @@ m = list(randomArray)
 start_time = time.time()
 mergeSort(m, 0, len(m) - 1)
 m_time = time.time() - start_time
+print("%s" %m_time)
 
 # run and time quicksort
 q = list(randomArray)
 start_time = time.time()
 quickSort(q, 0, len(q) - 1)
 q_time = time.time() - start_time
+print("%s" %q_time)
 
 # run and time selection sort
 s = list(randomArray)
 start_time = time.time()
 selectionSort(s)
 s_time = time.time() - start_time
+print("%s" %s_time)
 
 # run and time bubble sort
 b = list(randomArray)
 start_time = time.time()
 bubbleSort(b)
 b_time = time.time() - start_time
+print("%s" %b_time)
 
 print("~~~~~~~~~~RESULTS~~~~~~~~~~")
 print("<Algorithm>       <Runtime>")
